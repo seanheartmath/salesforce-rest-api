@@ -1,27 +1,18 @@
 {
-  "name": "bjsmasth/php-salesforce-rest-api",
-  "license": "MIT",
-  "keywords": [
-    "bjsmasth",
-    "php salesforce",
-    "php salesforce rest",
-    "php salesforce rest api",
-    "php"
-  ],
+  "name": "sean/php-salesforce-rest-api",
+  "license": "proprietary",
   "authors": [
     {
-      "name": "Bijesh Shrestha",
-      "email": "bjsmasth@gmail.com",
-      "homepage": "https://github.com/bjsmasth"
+      "name": "Sean Callahan",
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "^6.2 || ^7",
+    "guzzlehttp/guzzle": ">=7.5.0",
     "php": ">=5.5"
   },
   "autoload": {
     "psr-4": {
-      "bjsmasth\\Salesforce\\": "src/"
+      "sean\\Salesforce\\": "src/"
     }
   }
 }
