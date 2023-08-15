@@ -6,10 +6,6 @@
       "name": "Sean Callahan"
     }
   ],
-  "require": {
-    "guzzlehttp/guzzle": "7.5.0",
-    "php": ">=5.5"
-  },
   "autoload": {
     "psr-4": {
       "sean\\Salesforce\\": "src/"
